@@ -7,6 +7,7 @@ import './App.css';
 import Calling from './components/Calling';
 import Contact from './components/Contact';
 import Footer from './components/Footer';
+import Layout from './components/Layout';
 
 
 function App() {
@@ -15,13 +16,14 @@ function App() {
   return (
     <>
  
-  <Navbar/>
+  <Layout>
   <Hero />
   <Service/>
   <States/>
      <Calling/>
      <Contact/>
-     <Footer/>
+     </Layout>
+     
     </>
   )
 }
